@@ -85,7 +85,7 @@ li{
 @media screen and (min-width:375px) and (max-width:383px){
     html { font-size: 732.4%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
@@ -97,7 +97,7 @@ li{
 @media screen and (min-width:384px) and (max-width:399px){
     html { font-size: 750%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
@@ -109,7 +109,7 @@ li{
 @media screen and (min-width:400px) and (max-width:413px){
     html { font-size: 781.25%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
@@ -121,7 +121,7 @@ li{
 @media screen and (min-width:414px) and (max-width:431px){
     html { font-size: 808.6%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
@@ -133,7 +133,7 @@ li{
 @media screen and (min-width:432px) and (max-width:479px){
     html { font-size: 843.75%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
@@ -145,7 +145,7 @@ li{
 @media screen and (min-width:480px) and (max-width:519px){
     html { font-size: 843.75%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
