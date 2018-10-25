@@ -61,7 +61,7 @@ li{
 @media screen and (min-width:320px) and (max-width:359px){
     html { font-size: 666%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
@@ -73,7 +73,7 @@ li{
 @media screen and (min-width:360px) and (max-width:374px){
     html { font-size: 703%; }
     .rightul{
-        width:50%;
+        width:64%;
     }
     section{
         padding:.1rem;
