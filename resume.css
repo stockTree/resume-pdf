@@ -1,0 +1,346 @@
+html,body{
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+.wrap{
+    height:100%;
+    display: flex;
+}
+aside{
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 0px;
+    height: 100%;
+    width:250px;
+    color: #fff;
+    background:linear-gradient(to bottom right, #5ed5d1 , #1A2D27);
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-family:FangSong 
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#titles>li{
+    list-style: none;
+    margin-bottom:20px;
+    font-size: 20px;
+    padding:10px 0 10px 40px;
+}
+.actives{
+   color: #db9019;
+}
+#titles>li:hover{
+    background:#5ed5d1;
+    transition: 2.6s;
+}
+#titles>li>span{
+    padding-left:15px;
+    font-size: 13px;
+}
+main{
+    flex:1;   
+    margin-left: 250px;
+}
+.contentss>li{
+    display: none;
+}
+.contentss .tab1{
+    display: block;
+}
+.tab4{
+    position: relative;
+    height:100vh;
+    top: 0;
+    left: 0;
+}
+
+.tab4 ul{
+position: absolute;
+top:50%;
+left:50%; 
+transform: translate(-50%,-50%)
+}
+.tab4 ol{
+    color: #1A2D27;
+    font-size: 36px; 
+    margin: 28px 0;
+}
+.tab4 ol img{
+    /* margin-right:15px;
+    margin-top: 28px; */
+    margin: 14px 15px -14px 0;
+}
+.tab4 ol span{
+    display: inline-block;
+   
+}
+.tab1{
+    position: relative;
+    height:100vh;
+    top: 0;
+    left: 0; 
+}
+.tab1>.tab1header{
+    height: 100px;
+    background: #1A2D27;
+}
+.tab2header,
+.tab3header{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 170px;
+}
+.tab1header>h1,
+.tab2header>h1
+{
+    position: absolute;
+    top: 10px;
+    color:#5ed5d1;
+    margin-left:0;
+    margin-right:0;
+    font-size: 46px;
+    left: 50%;
+    margin-left:-90px
+}
+.tab3header>h1{
+    position: absolute;
+    top: 10px;
+    color:#5ed5d1;
+    margin-left:0;
+    margin-right:0;
+    font-size: 46px;
+    left: 50%;
+    margin-left:-190px
+}
+.tab1Section{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-20%);
+    color: #1A2D27;
+    font-size: 20px;
+}
+.tab2Section{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.tab2Section>ol{
+    box-shadow:2px 2px 10px #ccc;
+    /* border: 1px solid red; */
+    padding:0px;
+    margin-bottom: 40px;
+}
+.tab2Section>ol>div{
+    padding: 15px 40px;
+    color: gray;
+    font-size: 13px;
+}
+
+.tab2Section>ol>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    color: #1A2D27;
+    padding: 15px 40px;
+    font-size: 15px;
+}
+.tab2Section>ol>div>span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: #5ed5d1;
+}
+.tab2Section>ol>img{
+    max-width: 600px;
+}
+.tab3Section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.tab3Section>div{
+    width: 43%;
+}
+.tab3Fotter{
+    margin-top: 35px;
+    color: #fff;
+   text-align: center;
+   margin-bottom: 25px;
+
+}
+.tab3Fotter>div>span{
+    background-color: #1A2D27;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px gray;
+    display: inline-block;
+    padding: 5px  15px;
+    margin: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:460px){
+    aside{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom:0;
+        right: 0px;
+        height: 50px;
+        width:100%;
+        background:linear-gradient(to bottom right, #5ed5d1 , #1A2D27);
+    }
+    aside>div>h1{
+        display: none;
+        color: #1A2D27;
+    }
+    aside>div>ul{
+        background: rgba(0, 0, 0,.7);
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+    .styleShow{
+        display: block;
+    }
+    main{
+        margin-left: 0;
+    }
+    aside>div>div>div{
+        width: 20px;
+        height: 3px;
+        background-color: #f5f5f5;
+        margin-top: 3px;
+    }
+    aside>div>div{
+        position: absolute;
+        top: 14px;
+        right: 20px;
+    }
+    .tab1header{
+        background:#fff !important;
+    }
+    .tab1Section{
+        width: 310px;
+        top: 38%;
+        font-size: 16px
+    }
+    .tab1Section>h1{
+        margin-bottom: 16px;
+        margin-top: 26px; 
+    }
+    .tab1header>h1{
+        margin: 50px 0 20px -90px;
+    }
+    .tab2Section{
+        width: 80%;
+    }
+    .tab2Section img{
+        width: 100%;
+    }
+    .tab4 ul{
+        width: 80%;
+        margin: 20px 10% 0;
+    }   
+    .tab4 ul ol{
+        font-size:18px;
+        padding-left: 0;
+    }
+
+}
+@media screen and (min-width:461px) and (max-width:759px){
+    aside{
+        /* z-index: 5; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom:0;
+        right: 0px;
+        height: 50px;
+        width:100%;
+        /* color: #fff; */
+        background:linear-gradient(to bottom right, #5ed5d1 , #1A2D27);
+    }
+    aside>div>h1{
+        display: none;
+        color: #1A2D27;
+    }
+    aside>div>ul{
+        background: rgba(0, 0, 0,.7);
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: none;
+    }
+    .styleShow{
+        display: block;
+    }
+    .styleHide{
+        display:none;
+    }
+    main{
+        margin-left: 0;
+    }
+    aside>div>div>div{
+        width: 20px;
+        height: 3px;
+        background-color: #f5f5f5;
+        margin-top: 3px;
+    }
+    aside>div>div{
+        position: absolute;
+        top: 14px;
+        right: 20px;
+    }
+    /* .tab1header{
+        background-color:none;
+    } */
+    .tab1Section{
+        width: 80%;
+        top: 38%;
+    }
+    .tab1header{
+        background:#fff !important;
+    }
+    .tab1Section>h1{
+        margin-bottom: 20px;
+        margin-top: 30px; 
+    }
+    .tab1header>h1{
+        margin: 50px 0 20px -90px;
+    }
+    .tab2Section{
+        width: 80%;
+    }
+    .tab2Section img{
+        width: 100%;
+    }
+    .tab4 ul{
+        width: 80%;
+        margin: 0 10%;
+    }   
+    .tab4 ul ol{
+        font-size:24px;
+    }
+
+}
+
+@media screen and (min-width:760px) and (max-width:900px){
+    .tab2Section{
+        width: 80%;
+    }
+    .tab2Section img{
+        width: 100%;
+    }
+}
