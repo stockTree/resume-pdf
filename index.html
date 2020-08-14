@@ -11,12 +11,11 @@
     <div class="wrap">
         <aside>
             <div>
-                    <div id="menubtn">
-                       
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
+                <div id="menubtn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <h1>林雨薇 前端简历</h3>
                 <ul id="titles">
                     <li class="titles1 actives">个人<span>About Me</span></li>
@@ -24,7 +23,6 @@
                     <li class="titles3">技能<span>Skill</span></li>
                     <li class="titles4">联系<span>Contact</span></li>
                 </ul> 
-               
             </div>
         </aside>
         <main>
@@ -33,62 +31,69 @@
                    <div class="tab1header"><h1>About Me</h1></div>
                    <div class="tab1Section">
                        <h1>林雨薇</h1>
-                       
-                        <p><span>教育经历</span>毕业平顶山学院
+                        <p>
+                            <span>教育经历</span>
+                            <span class="title">毕业平顶山学院</span>
+                        </p>
+                        <p class="floatMoudle">
+                            <span>工作经历</span>
+                            <p class="text">
+                                <span >2017-11至2018-08任职于福州蓝鲸出海研发部、</span>
+                                <span class="text">2019-11至2020-06任职于浙江宇石网络科技有限公司</span>
                             </p>
-                            <p><span>工作经历</span>2017-11至2018-9任职于福州蓝鲸出海研发部
-                                </p>
-                                <p><span>意向职位</span>前端开发
-                                    </p>
-                                    <p><span>个人博客</span><a href="https://zhuanlan.zhihu.com/p/42331064">https://zhuanlan.zhihu.com/p/42331064(可点击)</a>
-                                    </p>
+                        </p>
+                        <p>
+                            <span>意向职位</span>
+                            <span class="title">前端开发</span>
+                        </p>
+                        <p class="floatMoudle">
+                            <span>简单介绍</span>
+                            <p class="text">
+                                <span>
+                                    第一次的任职中没有学习到什么，平时只写css和html，
+                                </span>
+                                <span>
+                                    第二家的工作中，多使用vue+element，大部分都是管理后台的维护和开发。
+                                </span>
+                                <span>
+                                    现在在学习react。
+                                </span>
+                            </p>
+                        </p>
                    </div>
                </li>
                <li class="tab2">
                     <div class="tab2header"><h1>Portfolio</h1></div>
                     <ul class="tab2Section">
                         <ol>
-                            <div><span>CNode.js社区(pc)</span><span><a href="https://stocktree.github.io/cnode/dist/index.html#/">link</a></span></div>
+                            <div><span>2020-react管理后台(小)(pc)</span><span><a href="https://stocktree.github.io/backstage/dist/index.html#/" target="_blank">link</a></span></div>
+                            <img src="./img/react.png" alt="">
+                            <div>
+                                <p>构建高质量的pc页面获取数据渲染页面</p>
+                                <p>项目有公共头部导航栏、公共侧边栏、弹窗</p>
+                                <p>接口跨域，使用proxy配置。build到github后使用的是mock数据,影响到交互了</p>
+                                <p>react/webpack</p>
+                                <p><a href="https://stocktree.github.io/backstage/dist/index.html#/" target="_blank">项目地址（电脑）</a></p>
+                            </div>
+                        </ol>
+                        <ol>
+                            <div><span>2018-CNode.js社区(pc)</span><span><a href="https://stocktree.github.io/cnode/dist/index.html#/" target="_blank">link</a></span></div>
                             <img src="./img/cnode.png" alt="">
                             <div>
-                                    <p>构建高质量的pc页面获取数据渲染页面</p>
-                                    <p>高度组件化，模块化</p>
-                                    <p>项目共有6个模块组件，单个组件内部，使用条件判断，列表渲染，动态绑定属性，axios请求数据，钩子函数等</p>
-                                    <p>js/vue/css3/axios</p>
-                                    <p><a href="https://stocktree.github.io/cnode/dist/index.html#/">项目地址（电脑）</a></p>
+                                <p>构建高质量的pc页面获取数据渲染页面</p>
+                                <p>高度组件化，模块化</p>
+                                <p>项目共有6个模块组件，单个组件内部，使用条件判断，列表渲染，动态绑定属性，axios请求数据，钩子函数等</p>
+                                <p>js/vue/css3/axios</p>
+                                <p><a href="https://stocktree.github.io/cnode/dist/index.html#/" target="_blank">项目地址（电脑）</a></p>
                             </div>
                         </ol>
-
                         <ol>
-                            <div><span>蓝鲸星球区块链（mobile）</span><span><a href="http://lanjing001.cn/ljch-front/html/home.html?uuid=676a7c850b7d4e588fe4c811b174f7ef">link</a></span></div>
+                            <div><span>2018-蓝鲸星球区块链（mobile）</span></div>
                             <img src="./img/sea.png" alt="">
                             <div>
-                                    <p>通过每日签到及完成任务增加算力和鲸币，可用于商城购买商品或者或者提现</p>
-                                    <p>js/jq/css3/ajax</p>
-                                    <p><a href="http://lanjing001.cn/ljch-front/html/home.html?uuid=676a7c850b7d4e588fe4c811b174f7ef">项目地址（手机）</a></p>
-                            </div>
-                        </ol>
-                        <ol>
-                            <div><span>实时预览皮卡丘（mobile&pc）</span><span><a href="https://stocktree.github.io/PIKACHU/index.html">link</a></span></div>
-                            <img src="./img/pikaqiu.png" alt="">
-                            <div>
-                                    <p>页面分为上下两块，上部为代码展示，下部为图像展示</p>
-                                    <p>图像随着代码展示实时发现变化</p>
-                                    <p>右侧按钮课调节速度</p>
-                                    <p>html/css/markdown</p>
-                                    <p><a href="https://stocktree.github.io/PIKACHU/index.html">项目地址（手机电脑都可以）</a></p>
-
-                            </div>
-                        </ol>
-                        <ol>
-                            <div><span>bootstrap实现响应式静态页面（mobile&pc）</span><span><a href="https://stocktree.github.io/bootstrap/task8.3.html">link</a></span></div>
-                            <img src="./img/boot.png" alt="">
-                            <div>
-                                    <p>使用bootstrap+媒体查询来构建整个网站的布局</p>
-                                            <p>共有三个响应式页面</p>
-                                            <p>html/css/bootstrap</p>
-                                            <p><a href="https://stocktree.github.io/bootstrap/task8.3.html">项目地址（手机电脑都可以）</a></p>
-
+                                <p>通过每日签到及完成任务增加算力和鲸币，可用于商城购买商品或者或者提现</p>
+                                <p>css3</p>
+                                <p>该项目已经不维护了</p>
                             </div>
                         </ol>
                     </ul>
@@ -96,17 +101,16 @@
                <li class="tab3">
                     <div class="tab3header"><h1>Skill</h1></div>
                     <div class="tab3Section">
-                        <div>
-                            
-                            <p>熟悉Npm & Git & Github </p>
-                            <p>拥有总结书写<a href="https://zhuanlan.zhihu.com/p/42331064">技术博客(可点击)</a>的习惯</p>
-                            <p>熟练掌握HTML(5)和常用CSS(3)，具有 像素级 还原设计稿的能力。具有 平均水准之上 的审美，追求设计的优雅。</p>
+                        <div class="tab3left">
+                            <p>具有还原设计稿的能力。</p>
+                            <p>使用Npm & Git & Github </p>
+                            <p>熟练掌握HTML(5)和常用CSS(3)</p>
                         </div>
-                        <div>
-                                <p>追求风格优雅，整洁的代码。 无分号拥护者</p>
-                                <p>熟悉vue生命周期、父子传值、非父子传值等</p>
-                                <p>熟练掌握原生Javascript，掌握重要概念如： 原型， 闭包 等。</p>
-                            </div>
+                        <div class="tab3right">
+                            <p>平时使用vue开发维护</p>
+                            <p>熟练掌握原生Javascript</p>
+                            <p>追求风格优雅、整洁的代码</p>
+                        </div>
                     </div>
                     <div class="tab3Fotter">
                         <div><span>html5</span><span>css3</span><span>bootstrap</span><span>jquery</span></div>
@@ -120,15 +124,10 @@
                        <ol><img src="./img/qq.png" alt=""><span>993940732@qq.com</span></ol>
                        <ol><img src="./img/wechat.png" alt=""><img src="./img/mywechat.jpg" alt="微信二维码" width="200px"></ol>
                    </ul>
-                        
-                   
-                   
                </li>
            </ul>
     </main>
-
     </div>
-
     <script>
         var sty=document.querySelector('#titles>li')
         console.log(sty)
@@ -137,53 +136,32 @@
 
         (function tab(){
             for(let i=0;i<otitles.length;i++){
-               
-                    otitles[i].onclick=function(){
+                otitles[i].onclick=function(){
                     for(let i=0;i<otitles.length;i++){
                     otitles[i].classList.remove('actives')
-} 
-                        if(otitles[i].className==='titles'+(i-0+1)){
-                            otitles[i].className+=' actives'
-                        }
-                        for(let j=0;j<ocontentss.length;j++){
-                            if(i===j){
-                                ocontentss[j].style.display='block' 
-                            }else if(i!==j){
-                                ocontentss[j].style.display='none' 
-                            }
-                        }
-
-                   
-
+                } 
+                if(otitles[i].className==='titles'+(i-0+1)){
+                    otitles[i].className+=' actives'
                 }
-                  
+                for(let j=0;j<ocontentss.length;j++){
+                    if(i===j){
+                        ocontentss[j].style.display='block' 
+                    }else if(i!==j){
+                        ocontentss[j].style.display='none' 
+                    }
                 }
-            }())
-           
-            menubtn.onclick=function(){
-                    var qtitles=document.querySelector('#titles')
-                if(qtitles.className==''){
-                    qtitles.className='styleShow'
-                }else{
-                    qtitles.className=''
-                   
                 }
-                
-               
-                
-                
             }
-            // if(window.innerWidth<760){
-            //     for(let i=0;i<otitles.length;i++){
-            //         otitles[i].onclick=function(){
-            //             var qtitles=document.querySelector('#titles')
-            //             qtitles.className=''
-            //         }
-            //     } 
-            // }
-            
-        
+        }())
+        menubtn.onclick=function(){
+                var qtitles=document.querySelector('#titles')
+            if(qtitles.className==''){
+                qtitles.className='styleShow'
+            }else{
+                qtitles.className=''
+                
+            }   
+        }
     </script>
-    
 </body>
 </html>
